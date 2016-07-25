@@ -13,6 +13,7 @@ class ofxSyphonServer {
 	public:
 	ofxSyphonServer();
 	~ofxSyphonServer();
+    void publishFBO(ofFbo* inputFbo);
 	void setName (string n);
 	string getName();
 	void publishScreen();
